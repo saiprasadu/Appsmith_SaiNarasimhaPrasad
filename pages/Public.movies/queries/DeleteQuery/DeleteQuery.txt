@@ -1,2 +1,0 @@
-DELETE FROM public."movies"
-  WHERE "id" = {{data_table.triggeredRow.id}};

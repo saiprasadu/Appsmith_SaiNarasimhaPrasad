@@ -1,2 +1,0 @@
-SELECT * FROM public."user_data"
-LIMIT 14
