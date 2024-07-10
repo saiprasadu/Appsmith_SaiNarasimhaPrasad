@@ -1,0 +1,39 @@
+{
+  "borderRadius": "0px",
+  "bottomRow": 9,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1.5rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 8.8963623046875,
+  "parentId": "f6o5ujc94b",
+  "parentRowSpace": 10,
+  "rightColumn": 64,
+  "text": "Update: {{data_table.selectedItem.investmentFund}} fund",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 1,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "he7ouwwyf7",
+  "widgetName": "Text9Copy"
+}

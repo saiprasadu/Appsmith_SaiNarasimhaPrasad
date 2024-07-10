@@ -1,0 +1,48 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": false,
+  "autoFocus": false,
+  "borderRadius": "0px",
+  "bottomRow": 17,
+  "boxShadow": "none",
+  "defaultText": "{{data_table.selectedItem.website}}",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": "true",
+  "key": "0equv9lg65",
+  "label": "",
+  "labelStyle": "BOLD",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 21,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 10.5390625,
+  "parentId": "f6o5ujc94b",
+  "parentRowSpace": 10,
+  "regex": "^((https?|ftp|smtp):\\/\\/)?(www.)?[a-z0-9]+\\.[a-z]+(\\/[a-zA-Z0-9#]+\\/?)*$",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 63,
+  "topRow": 13,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "true",
+  "version": 2,
+  "widgetId": "17016catca",
+  "widgetName": "colInput2Copy"
+}

@@ -1,0 +1,46 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1.125rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "yxn1b8a9na",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.603118896484375,
+  "parentId": "b0xz70fe8p",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 33,
+  "text": " {{fetchInvestorDetails.data[0]['investorName']}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 4,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "icez4yplhu",
+  "widgetName": "Text20"
+}

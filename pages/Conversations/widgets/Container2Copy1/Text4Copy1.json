@@ -1,0 +1,46 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1.5rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "czyq0gtp0e",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 10.1298828125,
+  "parentId": "wglnmzypql",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 33,
+  "text": "Investor Information: {{fetchInvestorDetails.data[0]['investmentFund']}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 1,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "wjdpmhs2mr",
+  "widgetName": "Text4Copy1"
+}

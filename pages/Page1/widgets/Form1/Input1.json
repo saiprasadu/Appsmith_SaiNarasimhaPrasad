@@ -1,0 +1,47 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0px",
+  "bottomRow": 59,
+  "boxShadow": "none",
+  "defaultText": "Hi {{Table1.selectedRow.name}},\n\n{{JSObject1[appsmith.store.msgName] + ''}}\n\nwww.companywebsite.com",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultText"
+    },
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "MULTI_LINE_TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isSpellCheck": true,
+  "isVisible": true,
+  "key": "qfnyunw8ug",
+  "label": "Message",
+  "labelStyle": "BOLD",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 6.82421875,
+  "parentId": "cicukwhp5j",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 61,
+  "topRow": 28,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "iiv2g6xmoi",
+  "widgetName": "Input1"
+}

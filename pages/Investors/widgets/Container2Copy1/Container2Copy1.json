@@ -1,0 +1,74 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#DD4B34",
+  "borderColor": "transparent",
+  "borderRadius": "0px",
+  "borderWidth": "0",
+  "bottomRow": 43,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 400,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "zcrk0mfge2",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "wmj1envzwv",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 430.5,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "0d6si5mpoi",
+      "widgetName": "Canvas2Copy1"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3.svg",
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": "{{appsmith.mode ==='EDIT'}}",
+  "key": "mktqirg3ws",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 10,
+  "topRow": 3,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "wmj1envzwv",
+  "widgetName": "Container2Copy1"
+}

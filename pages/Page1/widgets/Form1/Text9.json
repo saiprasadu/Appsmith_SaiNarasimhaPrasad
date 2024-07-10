@@ -1,0 +1,39 @@
+{
+  "borderRadius": "0px",
+  "bottomRow": 12,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1.125rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 23,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 8.8963623046875,
+  "parentId": "cicukwhp5j",
+  "parentRowSpace": 10,
+  "rightColumn": 51,
+  "text": "{{Table1.selectedRow.name}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 8,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "4hnz8ktmz5",
+  "widgetName": "Text9"
+}

@@ -1,0 +1,76 @@
+{
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "transparent",
+  "borderRadius": "15px",
+  "borderWidth": "0",
+  "bottomRow": 73,
+  "boxShadow": "none",
+  "children": [
+    {
+      "borderRadius": "0px",
+      "bottomRow": 510,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "hideCard": true,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "ffadum178l",
+      "labelTextSize": "0.875rem",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "kp5w51utgc",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 433.5,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "f6o5ujc94b",
+      "widgetName": "Canvas5Copy"
+    }
+  ],
+  "containerStyle": "card",
+  "displayName": "Container",
+  "dynamicBindingPathList": [
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3.svg",
+  "isCanvas": true,
+  "isLoading": false,
+  "isVisible": "{{data_table.selectedItem.investmentFund.length>0}}",
+  "key": "6bzu8mpizb",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 35,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "originalBottomRow": 67,
+  "originalTopRow": 16,
+  "parentColumnSpace": 18.0625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 53,
+  "topRow": 22,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "kp5w51utgc",
+  "widgetName": "Container4"
+}

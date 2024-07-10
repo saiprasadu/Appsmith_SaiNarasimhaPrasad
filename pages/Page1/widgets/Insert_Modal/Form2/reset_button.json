@@ -1,0 +1,30 @@
+{
+  "borderRadius": "0px",
+  "bottomRow": 55,
+  "boxShadow": "none",
+  "buttonColor": "#03B365",
+  "buttonVariant": "SECONDARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 29,
+  "onClick": "{{closeModal('Insert_Modal')}}",
+  "parentId": "tp9pui0e6y",
+  "recaptchaType": "V3",
+  "resetFormOnClick": true,
+  "rightColumn": 42,
+  "text": "Close",
+  "topRow": 51,
+  "type": "FORM_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "o23gs26wm5",
+  "widgetName": "reset_button"
+}

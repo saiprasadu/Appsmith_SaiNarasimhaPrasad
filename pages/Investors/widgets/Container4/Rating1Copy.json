@@ -1,0 +1,47 @@
+{
+  "activeColor": "#FFCB45",
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 41,
+  "boxShadow": "none",
+  "defaultRate": "{{data_table.selectedItem.interestLevel}}",
+  "displayName": "Rating",
+  "dynamicBindingPathList": [
+    {
+      "key": "defaultRate"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.914eb943.svg",
+  "inactiveColor": "#D6D6D6",
+  "isAllowHalf": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "ol0mze0uiu",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 22,
+  "maxCount": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 4.3984375,
+  "parentId": "f6o5ujc94b",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "size": "MEDIUM",
+  "tooltips": [
+    "Terrible",
+    "Bad",
+    "Neutral",
+    "Good",
+    "Great"
+  ],
+  "topRow": 37,
+  "type": "RATE_WIDGET",
+  "widgetId": "vfxc0pfic8",
+  "widgetName": "Rating1Copy"
+}

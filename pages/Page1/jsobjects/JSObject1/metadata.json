@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "668d7a5a4ebb254beaf8cb33_041f1046-76b5-4f7d-908a-68ce294d5b7a",
+  "id": "Page1_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "welcome",
+        "value": "`Welcome to our group! Here's a link to the new member paperwork:\n`"
+      },
+      {
+        "name": "renewal",
+        "value": "`A friendly reminder that your membership is about to expire. Please renew your subscriptions at:\n`"
+      },
+      {
+        "name": "thankyou",
+        "value": "`Thank you for supporting our group! Your membership has been renewed.\n`"
+      }
+    ]
+  }
+}

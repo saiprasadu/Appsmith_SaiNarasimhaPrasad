@@ -1,0 +1,36 @@
+{
+  "borderRadius": "0px",
+  "bottomRow": 55,
+  "boxShadow": "none",
+  "buttonColor": "#03B365",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "googleRecaptchaKey": "",
+  "isDefaultClickDisabled": true,
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 43,
+  "onClick": "{{InsertQuery.run(() => SelectQuery.run(() => closeModal('Insert_Modal')))}}",
+  "parentId": "tp9pui0e6y",
+  "recaptchaType": "V3",
+  "resetFormOnClick": true,
+  "rightColumn": 62,
+  "text": "Submit",
+  "topRow": 51,
+  "type": "FORM_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "h8vxf3oh4s",
+  "widgetName": "insert_button"
+}

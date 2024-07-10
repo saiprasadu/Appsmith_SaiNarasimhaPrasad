@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 54,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "rand4cj61w",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 9.78125,
+  "parentId": "mmpln5fa27",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "shouldTruncate": false,
+  "text": "https://api.whatsapp.com/send?phone={{in_customPhone.text.replace(/[()-]/g,'')}}&text={{encodeURI(in_customMsg.text)}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 50,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "xfso5f5f7m",
+  "widgetName": "txt_customUrl"
+}

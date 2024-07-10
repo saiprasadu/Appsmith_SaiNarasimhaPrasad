@@ -1,0 +1,24 @@
+{
+  "gitSyncId": "61dbc9d66bd5757f166cc898_6218a5a7445a8d746a05f85b",
+  "id": "Conversations_Utils",
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Conversations",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      },
+      {
+        "name": "conversationNotes",
+        "value": "[]"
+      }
+    ]
+  }
+}

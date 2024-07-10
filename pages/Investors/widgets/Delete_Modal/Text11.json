@@ -1,0 +1,33 @@
+{
+  "borderRadius": "0px",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1.5rem",
+  "fontStyle": "BOLD",
+  "isLoading": false,
+  "isVisible": "true",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 2,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentId": "zi8fjakv8o",
+  "rightColumn": 42,
+  "text": "Alert",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 2,
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "35yoxo4oec",
+  "widgetName": "Text11"
+}

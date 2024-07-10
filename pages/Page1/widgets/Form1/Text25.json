@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 20,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [
+    {
+      "key": "text"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "0.875rem",
+  "fontStyle": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "zkf657ya1m",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 23,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.82421875,
+  "parentId": "cicukwhp5j",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 61,
+  "shouldTruncate": false,
+  "text": "{{Table1.selectedRow.phone}}",
+  "textAlign": "LEFT",
+  "textColor": "#231F20",
+  "topRow": 16,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "ub6fuea1cs",
+  "widgetName": "Text25"
+}

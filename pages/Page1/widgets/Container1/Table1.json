@@ -1,0 +1,365 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "borderRadius": "0px",
+  "bottomRow": 73,
+  "boxShadow": "none",
+  "childStylesheet": {
+    "button": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "iconButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    },
+    "menuButton": {
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "boxShadow": "none",
+      "menuColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "columnOrder": [
+    "id",
+    "gender",
+    "latitude",
+    "longitude",
+    "dob",
+    "phone",
+    "email",
+    "image",
+    "country",
+    "name",
+    "created_at",
+    "updated_at"
+  ],
+  "columnSizeMap": {
+    "deliveryAddress": 170,
+    "id": 60,
+    "image": 65.99999999999999,
+    "status": 75,
+    "step": 62,
+    "task": 245
+  },
+  "defaultSelectedRow": "0",
+  "delimiter": ",",
+  "derivedColumns": {},
+  "dynamicBindingPathList": [
+    {
+      "key": "tableData"
+    },
+    {
+      "key": "primaryColumns.id.computedValue"
+    },
+    {
+      "key": "primaryColumns.gender.computedValue"
+    },
+    {
+      "key": "primaryColumns.latitude.computedValue"
+    },
+    {
+      "key": "primaryColumns.longitude.computedValue"
+    },
+    {
+      "key": "primaryColumns.dob.computedValue"
+    },
+    {
+      "key": "primaryColumns.phone.computedValue"
+    },
+    {
+      "key": "primaryColumns.email.computedValue"
+    },
+    {
+      "key": "primaryColumns.image.computedValue"
+    },
+    {
+      "key": "primaryColumns.country.computedValue"
+    },
+    {
+      "key": "primaryColumns.name.computedValue"
+    },
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "primaryColumns.created_at.computedValue"
+    },
+    {
+      "key": "primaryColumns.updated_at.computedValue"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onPageChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onPageChange"
+    },
+    {
+      "key": "onSearchTextChanged"
+    }
+  ],
+  "horizontalAlignment": "LEFT",
+  "isLoading": false,
+  "isSortable": true,
+  "isVisible": "true",
+  "isVisibleCompactMode": true,
+  "isVisibleDownload": false,
+  "isVisibleFilters": false,
+  "isVisiblePagination": false,
+  "isVisibleSearch": false,
+  "label": "Data",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "onPageChange": "{{SelectQuery.run()}}",
+  "onSearchTextChanged": "{{SelectQuery.run()}}",
+  "parentColumnSpace": 1,
+  "parentId": "59rw5mx0bq",
+  "parentRowSpace": 10,
+  "primaryColumnId": "id",
+  "primaryColumns": {
+    "country": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.country))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "country",
+      "index": 8,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "country",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "created_at": {
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.created_at))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "created_at",
+      "index": 10,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "created_at",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "dob": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.dob))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "dob",
+      "index": 4,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": false,
+      "label": "dob",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "email": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.email))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "email",
+      "index": 6,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "email",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "gender": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.gender))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "gender",
+      "index": 1,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "gender",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "id": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.id))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "id",
+      "index": 0,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "id",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "image": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "image",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.image))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "iconName": "",
+      "id": "image",
+      "index": 7,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "image",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "latitude": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.latitude))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "latitude",
+      "index": 2,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": false,
+      "label": "latitude",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "longitude": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.longitude))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "longitude",
+      "index": 3,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": false,
+      "label": "longitude",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "name": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.name))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "name",
+      "index": 9,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "name",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "phone": {
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "columnType": "text",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.phone))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "phone",
+      "index": 5,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "phone",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "updated_at": {
+      "cellBackground": "",
+      "columnType": "text",
+      "computedValue": "{{Table1.sanitizedTableData.map((currentRow) => ( currentRow.updated_at))}}",
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "id": "updated_at",
+      "index": 11,
+      "isCellVisible": true,
+      "isDerived": false,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "updated_at",
+      "textColor": "",
+      "textSize": "0.875rem",
+      "verticalAlignment": "CENTER",
+      "width": 150
+    }
+  },
+  "rightColumn": 63,
+  "searchKey": "",
+  "serverSidePaginationEnabled": true,
+  "tableData": "{{SelectQuery.data}}",
+  "textSize": "0.875rem",
+  "topRow": 8,
+  "type": "TABLE_WIDGET",
+  "version": 3,
+  "verticalAlignment": "CENTER",
+  "widgetId": "jabdu9f16g",
+  "widgetName": "Table1"
+}

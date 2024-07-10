@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 6,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1.5rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "zkf657ya1m",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 6.82421875,
+  "parentId": "cicukwhp5j",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 60,
+  "shouldTruncate": false,
+  "text": "Send WhatsApp Message",
+  "textAlign": "LEFT",
+  "textColor": "#002F1A",
+  "topRow": 2,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "2m69adae2s",
+  "widgetName": "Text26"
+}

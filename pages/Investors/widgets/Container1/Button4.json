@@ -1,0 +1,40 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0.375rem",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "buttonColor": "#455A64",
+  "buttonVariant": "PRIMARY",
+  "displayName": "Button",
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconName": "plus",
+  "iconSVG": "/static/media/icon.cca02633.svg",
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "1azlbx8emc",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 47,
+  "onClick": "{{showModal('Modal1')}}",
+  "parentColumnSpace": 7.58984375,
+  "parentId": "59rw5mx0bq",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "text": "Add",
+  "topRow": 2,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "4xgmbn1pv1",
+  "widgetName": "Button4"
+}

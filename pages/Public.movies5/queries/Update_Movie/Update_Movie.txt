@@ -1,0 +1,72 @@
+UPDATE public.movies
+SET 
+  title = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.title !== undefined ? `'${movie.updatedFields.title}'` : 'title'}`).join(' ')}}
+  END,
+  vote_average = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.vote_average !== undefined ? movie.updatedFields.vote_average : 'vote_average'}`).join(' ')}}
+  END,
+  vote_count = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.vote_count !== undefined ? movie.updatedFields.vote_count : 'vote_count'}`).join(' ')}}
+  END,
+  status = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.status !== undefined ? `'${movie.updatedFields.status}'` : 'status'}`).join(' ')}}
+  END,
+  release_date = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.release_date !== undefined ? `'${movie.updatedFields.release_date}'::date` : 'release_date'}`).join(' ')}}
+  END,
+  revenue = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.revenue !== undefined ? movie.updatedFields.revenue : 'revenue'}`).join(' ')}}
+  END,
+  runtime = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.runtime !== undefined ? movie.updatedFields.runtime : 'runtime'}`).join(' ')}}
+  END,
+  adult = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.adult !== undefined ? movie.updatedFields.adult : 'adult'}`).join(' ')}}
+  END,
+  backdrop_path = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.backdrop_path !== undefined ? `'${movie.updatedFields.backdrop_path}'` : 'backdrop_path'}`).join(' ')}}
+  END,
+  budget = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.budget !== undefined ? movie.updatedFields.budget : 'budget'}`).join(' ')}}
+  END,
+  homepage = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.homepage !== undefined ? `'${movie.updatedFields.homepage}'` : 'homepage'}`).join(' ')}}
+  END,
+  imdb_id = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.imdb_id !== undefined ? `'${movie.updatedFields.imdb_id}'` : 'imdb_id'}`).join(' ')}}
+  END,
+  original_language = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.original_language !== undefined ? `'${movie.updatedFields.original_language}'` : 'original_language'}`).join(' ')}}
+  END,
+  original_title = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.original_title !== undefined ? `'${movie.updatedFields.original_title}'` : 'original_title'}`).join(' ')}}
+  END,
+  overview = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.overview !== undefined ? `'${movie.updatedFields.overview}'` : 'overview'}`).join(' ')}}
+  END,
+  popularity = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.popularity !== undefined ? movie.updatedFields.popularity : 'popularity'}`).join(' ')}}
+  END,
+  poster_path = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.poster_path !== undefined ? `'${movie.updatedFields.poster_path}'` : 'poster_path'}`).join(' ')}}
+  END,
+  tagline = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.tagline !== undefined ? `'${movie.updatedFields.tagline}'` : 'tagline'}`).join(' ')}}
+  END,
+  genres = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.genres !== undefined ? `'${movie.updatedFields.genres}'` : 'genres'}`).join(' ')}}
+  END,
+  production_companies = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.production_companies !== undefined ? `'${movie.updatedFields.production_companies}'` : 'production_companies'}`).join(' ')}}
+  END,
+  production_countries = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.production_countries !== undefined ? `'${movie.updatedFields.production_countries}'` : 'production_countries'}`).join(' ')}}
+  END,
+  spoken_languages = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.spoken_languages !== undefined ? `'${movie.updatedFields.spoken_languages}'` : 'spoken_languages'}`).join(' ')}}
+  END,
+  keywords = CASE 
+    {{Table1.updatedRows.map((movie) => `WHEN id = ${movie.id} THEN ${movie.updatedFields.keywords !== undefined ? `'${movie.updatedFields.keywords}'` : 'keywords'}`).join(' ')}}
+  END
+WHERE id IN ({{Table1.updatedRows.map((movie) => movie.id).join(',')}});

@@ -1,0 +1,81 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "DESKTOP"
+  },
+  "applicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    }
+  },
+  "applicationVersion": 2,
+  "color": "#C7F3E3",
+  "embedSetting": {
+    "height": "720px",
+    "showNavigationBar": false,
+    "width": "1024px"
+  },
+  "icon": "love",
+  "pages": [
+    {
+      "id": "Page1",
+      "isDefault": false
+    },
+    {
+      "id": "Conversations",
+      "isDefault": false
+    },
+    {
+      "id": "Investors",
+      "isDefault": false
+    },
+    {
+      "id": "Public.movies",
+      "isDefault": false
+    },
+    {
+      "id": "Public.movies2",
+      "isDefault": false
+    },
+    {
+      "id": "Public.movies3",
+      "isDefault": false
+    },
+    {
+      "id": "Public.movies4",
+      "isDefault": false
+    },
+    {
+      "id": "Public.movies5",
+      "isDefault": true
+    },
+    {
+      "id": "Public.course",
+      "isDefault": false
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "colorStyle": "light",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "sidebar",
+      "orientation": "side",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
+    }
+  }
+}

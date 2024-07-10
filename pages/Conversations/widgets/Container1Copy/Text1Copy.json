@@ -1,0 +1,42 @@
+{
+  "animateLoading": true,
+  "borderRadius": "0px",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "displayName": "Text",
+  "dynamicBindingPathList": [],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "fontSize"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fontFamily": "System Default",
+  "fontSize": "1.5rem",
+  "fontStyle": "BOLD",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.97c59b52.svg",
+  "isLoading": false,
+  "isVisible": true,
+  "key": "czyq0gtp0e",
+  "labelTextSize": "0.875rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "overflow": "NONE",
+  "parentColumnSpace": 16.62109375,
+  "parentId": "8zp12jouxa",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 27,
+  "text": "Conversations",
+  "textAlign": "LEFT",
+  "textColor": "#FFFFFF",
+  "topRow": 4,
+  "truncateButtonColor": "#FFC13D",
+  "type": "TEXT_WIDGET",
+  "version": 1,
+  "widgetId": "5w44fh8qgi",
+  "widgetName": "Text1Copy"
+}

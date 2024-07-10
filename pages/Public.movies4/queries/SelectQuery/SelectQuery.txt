@@ -1,0 +1,5 @@
+SELECT * FROM public."movies"
+WHERE "title" ilike '%{{Table1.searchText || ""}}%'
+ORDER BY "{{Table1.sortOrder.column || 'id'}}" {{Table1.sortOrder.order || 'ASC'}}
+LIMIT {{Table1.pageSize}}
+OFFSET {{(Table1.pageNo - 1) * Table1.pageSize}};

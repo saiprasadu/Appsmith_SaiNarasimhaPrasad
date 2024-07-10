@@ -1,0 +1,43 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "0px",
+  "bottomRow": 49,
+  "boxShadow": "none",
+  "defaultText": "",
+  "displayName": "Input",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconAlign": "left",
+  "iconSVG": "/static/media/icon.9f505595.svg",
+  "inputType": "MULTI_LINE_TEXT",
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "0nlzpoqns3",
+  "label": "",
+  "labelStyle": "BOLD",
+  "labelTextSize": "1rem",
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 9.78125,
+  "parentId": "mmpln5fa27",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "resetOnSubmit": true,
+  "rightColumn": 63,
+  "topRow": 21,
+  "type": "INPUT_WIDGET_V2",
+  "version": 2,
+  "widgetId": "f6r6y9inwu",
+  "widgetName": "in_customMsg"
+}
