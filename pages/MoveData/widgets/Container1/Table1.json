@@ -103,9 +103,6 @@
       "key": "boxShadow"
     },
     {
-      "key": "primaryColumns.customColumn1.borderRadius"
-    },
-    {
       "key": "primaryColumns.id.computedValue"
     },
     {
@@ -176,12 +173,12 @@
     },
     {
       "key": "primaryColumns.keywords.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.menuColor"
     }
   ],
   "dynamicPropertyPathList": [
-    {
-      "key": "primaryColumns.customColumn1.borderRadius"
-    },
     {
       "key": "tableData"
     }
@@ -217,6 +214,7 @@
   "label": "Data",
   "labelTextSize": "0.875rem",
   "leftColumn": 0,
+  "multiRowSelection": false,
   "onPageChange": "{{SelectQuery.run()}}",
   "onSearchTextChanged": "{{SelectQuery.run()}}",
   "onSort": "{{SelectQuery.run()}}",
@@ -328,16 +326,16 @@
       "width": 150
     },
     "customColumn1": {
-      "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( appsmith.theme.borderRadius.appBorderRadius))}}",
-      "boxShadow": "none",
-      "buttonColor": "#DD4B34",
       "buttonLabel": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'Delete'))}}",
       "buttonLabelColor": "#FFFFFF",
       "buttonStyle": "rgb(3, 179, 101)",
-      "columnType": "button",
+      "columnType": "iconButton",
       "computedValue": "",
+      "customAlias": "",
       "enableFilter": true,
       "enableSort": true,
+      "horizontalAlignment": "LEFT",
+      "iconName": "trash",
       "id": "customColumn1",
       "index": 5,
       "isCellVisible": true,
@@ -346,7 +344,7 @@
       "isVisible": true,
       "label": "Delete",
       "labelColor": "#FFFFFF",
-      "menuColor": "#03B365",
+      "menuColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
       "onClick": "{{showModal(Delete_Modal.name).then(() => {\n  SelectQuery.run();\n});}}",
       "sticky": "right",
       "width": 150
