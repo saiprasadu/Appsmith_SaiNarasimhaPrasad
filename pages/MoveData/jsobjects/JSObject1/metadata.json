@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "668d7a5a4ebb254beaf8cb33_759200fc-5cb9-462a-be32-1215ea156151",
+  "id": "MoveData_JSObject1",
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "MoveData",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

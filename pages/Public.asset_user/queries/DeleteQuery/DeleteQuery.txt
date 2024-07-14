@@ -1,0 +1,2 @@
+DELETE FROM public."asset_user"
+  WHERE "id" = {{data_table.triggeredRow.id}};

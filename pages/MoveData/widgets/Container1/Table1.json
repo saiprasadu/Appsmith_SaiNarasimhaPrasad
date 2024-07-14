@@ -53,7 +53,7 @@
     "step": 62,
     "task": 245
   },
-  "columnUpdatedAt": 1720592324508,
+  "columnUpdatedAt": 1720767147668,
   "defaultPageSize": 0,
   "defaultSelectedRowIndex": "0",
   "delimiter": ",",
@@ -218,6 +218,8 @@
   "onPageChange": "{{SelectQuery.run()}}",
   "onSearchTextChanged": "{{SelectQuery.run()}}",
   "onSort": "{{SelectQuery.run()}}",
+  "originalBottomRow": 91,
+  "originalTopRow": 12,
   "parentColumnSpace": 16.3125,
   "parentId": "59rw5mx0bq",
   "parentRowSpace": 10,

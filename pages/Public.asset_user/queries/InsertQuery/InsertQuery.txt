@@ -1,0 +1,12 @@
+INSERT INTO public."asset_user" (
+	"first_name",
+	"last_name",
+	"email",
+	"department",
+	"status")
+VALUES (
+	'{{insert_form.formData.first_name}}',
+	'{{insert_form.formData.last_name}}',
+	'{{insert_form.formData.email}}',
+	'{{insert_form.formData.department}}',
+	'{{insert_form.formData.status}}');

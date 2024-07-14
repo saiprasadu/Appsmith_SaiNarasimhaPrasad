@@ -1,0 +1,7 @@
+UPDATE public."asset_user" SET
+		"first_name" = '{{update_form.fieldState.first_name.isVisible ? update_form.formData.first_name : update_form.sourceData.first_name}}',
+		"last_name" = '{{update_form.fieldState.last_name.isVisible ? update_form.formData.last_name : update_form.sourceData.last_name}}',
+    "email" = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}',
+		"department" = '{{update_form.fieldState.department.isVisible ? update_form.formData.department : update_form.sourceData.department}}',
+		"status" = '{{update_form.fieldState.status.isVisible ? update_form.formData.status : update_form.sourceData.status}}'
+WHERE "id" = {{data_table.selectedRow.id}};

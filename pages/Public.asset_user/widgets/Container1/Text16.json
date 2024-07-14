@@ -1,6 +1,6 @@
 {
   "borderRadius": "0px",
-  "bottomRow": 9,
+  "bottomRow": 5,
   "boxShadow": "none",
   "dynamicBindingPathList": [
     {
@@ -27,11 +27,11 @@
   "parentColumnSpace": 11.78515625,
   "parentId": "59rw5mx0bq",
   "parentRowSpace": 10,
-  "rightColumn": 11,
-  "text": "Movie Details",
+  "rightColumn": 19,
+  "text": "asset user Data",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 5,
+  "topRow": 1,
   "type": "TEXT_WIDGET",
   "version": 1,
   "widgetId": "urzv99hdc8",

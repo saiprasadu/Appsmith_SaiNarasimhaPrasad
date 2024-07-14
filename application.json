@@ -28,6 +28,10 @@
     {
       "id": "MoveData",
       "isDefault": true
+    },
+    {
+      "id": "Public.asset_user",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

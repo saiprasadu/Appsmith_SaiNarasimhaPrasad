@@ -104,6 +104,8 @@
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
   "orientation": "horizontal",
+  "originalBottomRow": 11,
+  "originalTopRow": 7,
   "parentColumnSpace": 16.7841796875,
   "parentId": "59rw5mx0bq",
   "parentRowSpace": 10,
